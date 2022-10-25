@@ -8,4 +8,4 @@ if vlprest <= psal:
           'Sua forma de pagamento será: {} prestações de R$ {:.2f}'.format(anos*12, vlprest))
 else:
     print('\33[0;31mQue pena seu financiamento não pode ser aprovado\n'
-          'O valor da prestação de R$ {:.2f} escede o valor limite de R$ {:.2f}\33[m'.format(vlprest, psal))
+          'O valor da prestação de R$ {:.2f} excede o valor limite de R$ {:.2f}\33[m'.format(vlprest, psal))
